@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document</title>
+  </head>
+  <body>
+    <script>
+      // membuat variabel
+      var nama = "<h1>Saiful akrom</h1>";
+      var Nim = "<h1>SI18210011</h1>";
+
+      // menampilkan variabel ke jendela dialog (alert)
+      alert("Selamat datang di bioku");
+
+      // menampilkan variabel ke dalam HTML
+      document.write("<h1>Nama Lengkap: </h1>" + nama);
+      document.write("<h1>NIM </h1>" + Nim + "<br>");
+      document.write("<h2>Tipe Data Variabel</h2>" + "<br>");
+      document.write("nama saya m.mulaimi ini adalah tipe data string");
+      // untuk tipe data teks atau string penulisannya selalu diapit dengan tanda petik
+      var author = "saiful akrom";
+
+      // sedangkan untuk tipe data number dan boolean
+      var available = true; // <- tipe data boolean (true dan false)
+      var total = 14;
+      document.write("ini adalah tipe data number :" + total + "<br>");
+
+      document.write("<h2>Operator</h2>" + "<br>");
+      //   Operator
+      var a = 5;
+      var b = 3;
+
+      // menggunakan operator penjumlahan
+      var c = a + b;
+      document.write(`${a} + ${b} = ${c}<br/>`);
+
+      var a = 15;
+      var b = 4;
+      var c = 0;
+
+      // pengurangan
+      c = a - b;
+      document.write(`${a} - ${b} = ${c}<br/>`);
+
+      // Perkalian
+      c = a * b;
+      document.write(`${a} * ${b} = ${c}<br/>`);
+
+      // pemangkatan
+      c = a ** b;
+      document.write(`${a} ** ${b} = ${c}<br/>`);
+
+      // Pembagian
+      c = a / b;
+      document.write(`${a} / ${b} = ${c}<br/>`);
+
+      // Modulo
+      c = a % b;
+      document.write(`${a} % ${b} = ${c}<br/>`);
+
+      //   Operator Perbandingan
+
+      var aku = 20;
+      var kamu = 19;
+
+      // sama dengan
+      var hasil = aku == kamu;
+      document.write(`${aku} == ${kamu} = ${hasil}<br/>`);
+
+      // lebih besar
+      var hasil = aku > kamu;
+      document.write(`${aku} > ${kamu} = ${hasil}<br/>`);
+
+      // lebih besar samadengan
+      var hasil = aku >= kamu;
+      document.write(`${aku} >= ${kamu} = ${hasil}<br/>`);
+
+      // lebih kecil
+      var hasil = aku < kamu;
+      document.write(`${aku} < ${kamu} = ${hasil}<br/>`);
+
+      // lebih kecil samadengan
+      var hasil = aku <= kamu;
+      document.write(`${aku} <= ${kamu} = ${hasil}<br/>`);
+
+      // tidak samadengan
+      var hasil = aku != kamu;
+      document.write(`${aku} != ${kamu} = ${hasil}<br/>`);
+    </script>
+  </body>
+</html>
